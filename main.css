@@ -1,0 +1,19 @@
+/* .container { */
+/*   display: flex; */
+/*   display: -webkit-flex; */
+/*   -webkit-flex-direction: row; */
+/*   flex-direction: row; */
+/* } */
+/* .maprow { */
+/* } */
+.container {
+  padding: 5px;
+}
+.mapcontainer {
+  height: 44%;
+  width: 49.5%;
+  display: inline-block;
+}
+body {
+  margin: 0;
+}

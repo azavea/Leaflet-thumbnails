@@ -1,0 +1,15 @@
+{
+  "name": "leaflet-sentinel",
+  "version": "0.0.1",
+  "description": "Leaflet Thumbnail Overlay Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "simplehttpserver -p 1234 ./"
+  },
+  "author": "Lucien Knechtli",
+  "license": "MIT",
+  "dependencies": {
+    "simplehttpserver": "0.0.6"
+  }
+}

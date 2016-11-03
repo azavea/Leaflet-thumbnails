@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Leaflet Thumbnail Overlay</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet"  href="/main.css" />
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.16.6/lodash.min.js"></script>
+    <script src="https://npmcdn.com/@turf/turf@3.5.1/turf.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <p>Sentinel 2 thumbnails</p>
+      <div class="maprow">
+        <div id="sentinel2" class="mapcontainer"></div>
+        <div id="sentinel2-trans" class="mapcontainer"></div>
+      </div>
+      <div class="maprow">
+        <p>Landsat 8 thumbnails</p>
+        <div id="landsat8" class="mapcontainer"></div>
+        <div id="landsat8-trans" class="mapcontainer"></div>
+      </div>
+    </div>
+  </body>
+  <script src="/index.js"></script>
+</html>
